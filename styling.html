@@ -1,0 +1,97 @@
+<!-- DEVELOPER: Carlos Fernandez, IS117-001, Fall 2020 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>A Bonsai Webpage</title>
+    <link rel="shortcut icon" href="images/Bonsai_Icon.svg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styling.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+
+<body>
+<header>
+    <img src="images/4bonsai.png" alt="Bonsai Logo" height="80">
+    <h2>Bonsai World</h2>
+    <h3>A Millennial <span class="shadow">Art</span></h3>
+</header>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="#">About US</a>
+
+            <ul>
+                <li><a href="history.html">History</a></li>
+            </ul>
+
+        <li><a href="#">Knowing the Basics</a>
+            <ul>
+                <li><a href="gettingthetrees.html">Getting The Trees</a></li>
+                <li><a href="styling.html">Styling Techniques</a></li>
+                <li><a href="bonsaiCare.html">Bonsai Care</a></li>
+                <li><a href="#">Tools</a></li>
+            </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Bonsai News</a></li>
+        <li><a href="contact.html">Contact us</a>
+        </li>
+    </ul>
+</nav>
+<main>
+    <section>
+
+
+
+        <h2>WIRING</h2>
+        <p align="justify">Wire is placed on the trunk and branches of bonsai for one purpose… to assist in making branches and trunks
+            bend to the desired location. Like a hammer or a screwdriver, wire is a tool designed to accomplish a specific
+            task in the most efficient manner possible. When it has served its purpose, it is removed.
+        <br><br>
+            Wire serves the same purpose as braces on a child’s teeth. It is a temporary shaping device designed to be
+            removed after it has done its job.
+
+        </p>
+
+            <img src="images/WiringBonsaiBranches.jpg" alt="Wiring a Bonsai" class="center">
+
+            <article>
+
+                <h2>PRUNING</h2>
+        <p align="justify">Without doubt the most important way to train a Bonsai is to prune it on a regular basis.
+            Essentially, there are two different techniques: maintenance-pruning, to maintain and refine the existing
+            shape of a Bonsai - and structural-pruning, which involves more rigorous pruning to give a tree its basic
+            shape or style.</p>
+        <p>
+            <img src="images/pruning.jpg" alt="Pruning a Bonsai" class="center">
+        </p>
+        </article>
+<br>
+        <p align="justify">A bonsai tree needs regular pruning to maintain its size and to shape it to a desired style.
+            There are two types of pruning: maintenance pruning, which keeps the tree small and encourages new growth,
+            and structural or stylistic pruning, which shapes the tree and enhances its aesthetic qualities. Whether you
+            want to prune your bonsai tree for maintenance or style, and no matter what type of bonsai tree you have, you
+            need only a critical eye and bonsai branch or knob cutters to get started. </p>
+
+        <a href="http://bonsai4me.com/Basics/Basics_StylingForms.html">Read more.</a>&nbsp;
+
+
+</main>
+<footer>
+    <p>&copy Carlos Fernandez, December 1, 2020</p>
+</footer>
+</body>
+</html>

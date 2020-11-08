@@ -1,0 +1,86 @@
+<!-- DEVELOPER: Carlos Fernandez, IS117-001, Fall 2020 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>A Bonsai Webpage</title>
+	<link rel="shortcut icon" href="images/Bonsai_Icon.svg">
+	<link rel="stylesheet" href="styles/normalize.css">
+
+	<link rel="stylesheet" href="styles/gallery.css">
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/image_swap.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+		});
+	</script>
+
+</head>
+
+<body>
+<header>
+	<img src="images/4bonsai.png" alt="Bonsai Logo" height="80">
+	<h2>Bonsai World</h2>
+	<h3>A Millennial <span class="shadow">Art</span></h3>
+</header>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+	<ul>
+		<li><a href="index.html" class="current">Home</a></li>
+		<li><a href="#">About US</a>
+
+			<ul>
+				<li><a href="history.html">History</a></li>
+			</ul>
+
+		<li><a href="#">Knowing the Basics</a>
+			<ul>
+				<li><a href="gettingthetrees.html">Getting The Trees</a></li>
+				<li><a href="styling.html">Styling Techniques</a></li>
+				<li><a href="bonsaiCare.html">Bonsai Care</a></li>
+				<li><a href="#">Tools</a></li>
+			</ul>
+		</li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="#">Bonsai News</a></li>
+		<li><a href="contact.html">Contact us</a>
+		</li>
+	</ul>
+</nav>
+<section>
+	<h1>Species and other types of Bonsai</h1>
+	<br>
+	<h3><italic>Click the small images to see an example</italic></h3>
+	<ul id="image_list">
+		<li><a href="images/juniper.jpg" title="Juniper" class="center"><img src="images/juniper1.jpg" alt=""></a></li>				</li>
+		<li><a href="images/japanese2.jpg" title="Japanese Maple" class="center"><img src="images/japanese1.jpg" alt=""></a></li>
+		<li><a href="images/ficus2.jpg" title="Ficus" class="center"><img src="images/ficus1.jpg" alt=""></a></li>
+		<li><a href="images/winter2.jpg" title="Deciduous tree " class="center"><img src="images/winter1.jpg" alt=""></a></li>
+		<li><a href="images/olive2.jpg" title="Broadleaf evergreens" class="center"><img src="images/olive1.jpg" alt=""></a></li>
+		<li><a href="images/pine2.jpg" title="Conifers and pines" class="center"><img src="images/pine1.jpg" alt=""></a></li>
+		<li><a href="images/frutal2.jpg" title="Frutal Bonsai" class="center"><img src="images/frutal1.jpg" alt=""></a></li>
+		<li><a href="images/floral3.jpg" title="Floral Bonsai" class="center"><img src="images/floral1.jpg" alt=""></a></li>
+		<li><a href="images/willow2.jpg" title="Willow Bonsai" class="center"><img src="images/willow1.jpg" alt=""></a></li>
+	</ul>
+	<h2 id="caption" class="center">Juniper</h2>
+	<p><img id="image" src="images/images/juniper1.jpg" alt="" class="center"></p>
+</section>
+</main>
+<footer>
+	<p>
+		<script>
+			var today = new Date();
+			document.write( "&copy" );
+
+			document.write( " Carlos Fernandez, December 1, 2020" )
+		</script>
+	</p>
+</footer>
+</body>
+</html>

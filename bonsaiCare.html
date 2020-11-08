@@ -1,0 +1,107 @@
+<!-- DEVELOPER: Carlos Fernandez, IS117-001, Fall 2020 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>A Bonsai Webpage</title>
+    <link rel="shortcut icon" href="images/Bonsai_Icon.svg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/care.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+
+<body>
+<header>
+    <img src="images/4bonsai.png" alt="Bonsai Logo" height="80">
+    <h2>Bonsai World</h2>
+    <h3>A Millennial <span class="shadow">Art</span></h3>
+</header>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="#">About US</a>
+
+            <ul>
+                <li><a href="history.html">History</a></li>
+            </ul>
+
+        <li><a href="#">Knowing the Basics</a>
+            <ul>
+                <li><a href="gettingthetrees.html">Getting The Trees</a></li>
+                <li><a href="styling.html">Styling Techniques</a></li>
+                <li><a href="bonsaiCare.html">Bonsai Care</a></li>
+                <li><a href="#">Tools</a></li>
+            </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Bonsai News</a></li>
+        <li><a href="contact.html">Contact us</a>
+        </li>
+    </ul>
+</nav>
+<main>
+    <section>
+
+
+
+        <h2>Watering</h2>
+        <p align="justify">The watering of your bonsai must never be neglected. Apply water when the soil appears dry --
+            never allow the soil to become completely dry. If your bonsai is receiving full sun, it may be necessary to
+            water once a day. This schedule may vary with the size pot, type of soil and type of bonsai tree you own.
+            Evaluate each tree's water requirements and adjust your watering schedule to accommodate it. It is a good idea
+            to use a moisture meter until you get to know the requirements of your bonsai tree. Watering should be done with
+            a watering can or hose attachment which should dispense the water in a soft enough manner as not to disturb
+            the soil. Water should be applied until it begins running out of the holes in the bottom of your pot. A good
+            rain is usually a sufficient watering.
+            <br>
+
+
+        </p>
+
+        <img src="images/watering-bonsai.jpg" alt="Watering" class="center">
+
+        <article>
+
+            <h2>Fertilizing</h2>
+            <p align="justify">Fertilizing is also necessary if your bonsai is to remain healthy and beautiful. Since
+                your bonsai is growing in such a small amount of soil it is necessary to replenish the soil's supply of
+                nutrients periodically. Any general-purpose liquid fertilizer will do fine and is available at most
+                garden centers. We suggest that fertilizers be used at half their recommended strength. Fertilizer should
+                be applied at least once a month except during winter. Your bonsai will also respond well to foliar feeding,
+                with a water-soluble fertilizer applied every other month as a spray.</p>
+            <p>
+                <img src="images/fertilize-black-pine-bonsai-2.jpg" alt="Fertilizing" class="center">
+            </p>
+        </article>
+        <br>
+
+        <h2>Repotting</h2>
+        <p align="justify">Repotting must be performed periodically on all bonsai when their root system has filled the
+            pot. The reasons for repotting are to supply your tree with fresh soil, and to encourage a more compact root
+            system. As a rule, most deciduous trees require repotting every two or three years, while evergreens only need
+            to be repotted every four or five years. Since trees grow at different rates, this schedule will not always
+            hold true, therefore, you should examine your tree's root system each year to determine if it has become pot-bound. </p>
+
+        <img src="images/repotting.jpg" alt="Wiring a Bonsai" class="center">
+
+        <a href="http://bonsai4me.com/Basics/Basics_StylingForms.html">Read more.</a>&nbsp;
+
+
+</main>
+<footer>
+    <p>&copy Carlos Fernandez, December 1, 2020</p>
+</footer>
+</body>
+</html>
