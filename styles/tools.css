@@ -22,7 +22,7 @@ a:focus, a:hover {
 }
 /*  header */
 header {
-    padding: 1.5em 0 2em 0;
+    padding: .5em 0 .5em 0;
     border-bottom: 3px solid #000951;
     background-image: -moz-linear-gradient(
             30deg, #73cdf6 0%, #73CDF6 30%, white 50%, #73CDF6 80%, #73CDF6 100%);
