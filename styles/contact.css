@@ -7,8 +7,8 @@ html
    padding: 0;
 }
 header {
-   padding: 1.5em 0 2em 0;
-   border-bottom: 3px solid #000951;
+   padding: 0em 0 0em 0;
+   border-bottom: 0px solid #000951;
    background-image: -moz-linear-gradient(
          30deg, #73cdf6 0%, #73CDF6 30%, white 50%, #73CDF6 80%, #73CDF6 100%);
    background-image: -webkit-linear-gradient(
@@ -24,10 +24,10 @@ body {
    width: 990px;
    max-width: 100%; /*Page size width should take above 100%.It will not give good look incase of responsive web design*/
    background-color: white;
-   margin: 15px auto;
-   padding: 15px 0;
+   margin: 20px auto;
+   padding: 0px 0;
    border: 1px solid #000951;
-    height: 750px;
+    height: 715px;
 }
 
 
@@ -101,7 +101,7 @@ br {
 
 /* the styles for the header */
 header {
-   padding-bottom: 2em;
+   padding-bottom: .5em;
 }
 header h2 {
    font-size: 220%;
